@@ -19,6 +19,7 @@ const Banner = () => {
           href="https://drive.google.com/drive/folders/1Ctcdtv4DUXmYVjSTx6h53YZv_by8ew-C?usp=sharing"
           download
           target="_blank"
+          rel="noreferrer"
         >
           Download Game
         </a>

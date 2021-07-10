@@ -11,13 +11,13 @@ const SingleDeveloper = ({ developer }) => {
       <p className={styles.title}>Software Engineer</p>
       <p>Gandaki College of Engineering and Science</p>
       <div className={styles.link} style={{ margin: "24px 0" }}>
-        <a href={developer.facebook} target="_blank">
+        <a href={developer.facebook} target="_blank" rel="noreferrer">
           <FacebookIcon />
         </a>
-        <a href={developer.github} target="_blank">
+        <a href={developer.github} target="_blank" rel="noreferrer">
           <GitHubIcon />
         </a>
-        <a href={developer.linkedin} target="_blank">
+        <a href={developer.linkedin} target="_blank" rel="noreferrer">
           <LinkedInIcon />
         </a>
       </div>

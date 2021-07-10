@@ -4,7 +4,7 @@ export const developer = [
     facebook: "https://www.facebook.com/prashant.dhozu",
     github: "https://github.com/thedhoju",
     linkedin: "https://www.linkedin.com/",
-    image: "./dhoju.jpg",
+    image: "/dhoju.jpg",
   },
   {
     name: "Shishir Gurung",
