@@ -1,0 +1,123 @@
+.inner {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.center,
+.navs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #793677;
+  background-color: inherit;
+  color: #793677;
+  padding: 0.6em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  width: fit-content;
+  font-size: large;
+}
+
+.button:hover {
+  transition: all ease-in 0.3s;
+  background-color: #793677;
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .checkBtn {
+    color: black;
+    z-index: 1000;
+    display: block;
+    position: relative;
+  }
+
+  .checkBtn:hover {
+    cursor: pointer;
+  }
+
+  .inner {
+    padding-top: 1em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .button {
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .navs {
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+    transform: translateX(100%);
+    /* transition: transform 200ms cubic-bezier(0.5, 0, 0.5, 1) ; */
+  }
+
+  .nav_close {
+    height: 100%;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateX(0%);
+    overflow: hidden;
+  }
+
+  .nav_link {
+    height: 100%;
+    margin: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .nav_link:hover {
+    color: plum;
+  }
+}
+
+@media (min-width: 650px) {
+  .checkBtn {
+    display: none;
+  }
+}

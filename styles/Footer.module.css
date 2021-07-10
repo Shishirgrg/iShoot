@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer > footer {
+  flex: 0.9;
+}
+
+.arrow {
+  flex: 0.1;
+}
