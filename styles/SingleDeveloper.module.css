@@ -23,3 +23,11 @@
   border-radius: 50%;
   height: 200px;
 }
+
+@media (max-width: 474px) {
+  .card {
+    width: 270px;
+    padding-right: 0.85rem;
+    height: 400px;
+  }
+}
