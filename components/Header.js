@@ -20,9 +20,13 @@ const Header = () => {
     <div id="navbar">
       <header className={styles.inner}>
         <nav className={styles.center}>
-          <h1 onClick={scrollToTop} style={{ color: "#793677" }}>
+          {/* <h1 onClick={scrollToTop} style={{ color: "#793677" }}>
             iShoot
-          </h1>
+          </h1> */}
+          <div onClick={scrollToTop} className={styles.image}>
+            <img src="/logo.png" alt="iShoot" />
+          </div>
+
           <h1 onClick={handleToggle} className={styles.checkBtn}>
             <MenuIcon />
           </h1>
